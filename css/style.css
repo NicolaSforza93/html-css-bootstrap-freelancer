@@ -9,6 +9,10 @@ menu {
 	list-style: none;
 }
 
+section {
+    padding: 20px 0px;
+}
+
 header {
     background-color: #303D4E;
 }
@@ -19,4 +23,16 @@ header {
 
 .avatar {
     width: 100px;
+}
+
+.portfolio img {
+    width: 100%;    
+}
+
+.about {
+    background-color: #58B99D;
+}
+
+footer {
+    background-color: #40536B;
 }
