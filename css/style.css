@@ -1,0 +1,22 @@
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
+ul,
+ol,
+menu {
+	list-style: none;
+}
+
+header {
+    background-color: #303D4E;
+}
+
+.hero {
+    background-color: #58B99D;
+}
+
+.avatar {
+    width: 100px;
+}
