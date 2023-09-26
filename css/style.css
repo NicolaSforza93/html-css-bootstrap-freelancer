@@ -10,10 +10,6 @@ header {
     background-color: #58B99D;
 }
 
-footer {
-    background-color: #40536B;
-}
-
 .copyright {
     background-color: #2C3E50;
 }
@@ -72,4 +68,37 @@ footer {
     position: absolute;
 	top: 10px;
 	right: 363px;
+}
+
+form button {
+    background-color: #58B99D;
+}
+
+form * {
+    border: none;
+    border-bottom: 1px solid #80808066;
+}
+
+::placeholder {
+    color: black;
+}
+
+footer > :first-child {
+	background-color: #40536B;
+}
+
+footer > :last-child {
+	background-color: #303D4E;
+}
+
+.green {
+    color: #58B99D;
+}
+
+.copyright {
+    font-size: 10px;
+}
+
+.facebook {
+    padding: 8px 12px;
 }
