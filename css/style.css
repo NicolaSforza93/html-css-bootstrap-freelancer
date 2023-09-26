@@ -34,7 +34,7 @@ footer {
 	background-color: white;
     position: absolute;
 	top: 10px;
-	left: 75px;
+	left: 363px;
 }
 
 .star::after {
@@ -45,7 +45,7 @@ footer {
 	background-color: white;
     position: absolute;
 	top: 10px;
-	right: 75px;
+	right: 363px;
 }
 
 .star_dark {
