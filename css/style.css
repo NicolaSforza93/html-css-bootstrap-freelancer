@@ -47,3 +47,29 @@ footer {
 	top: 10px;
 	right: 75px;
 }
+
+.star_dark {
+    position: relative;
+}
+
+.star_dark::before {
+	content: '';
+	display: block;
+	height: 2px;
+	width: 82px;
+	background-color: black;
+    position: absolute;
+	top: 10px;
+	left: 363px;
+}
+
+.star_dark::after {
+	content: '';
+	display: block;
+	height: 2px;
+	width: 82px;
+	background-color: black;
+    position: absolute;
+	top: 10px;
+	right: 363px;
+}
