@@ -17,3 +17,33 @@ footer {
 .copyright {
     background-color: #2C3E50;
 }
+
+.star {
+    position: relative;
+}
+
+.hero-image {
+    width: 120px;
+}
+
+.star::before {
+	content: '';
+	display: block;
+	height: 2px;
+	width: 82px;
+	background-color: white;
+    position: absolute;
+	top: 10px;
+	left: 75px;
+}
+
+.star::after {
+	content: '';
+	display: block;
+	height: 2px;
+	width: 82px;
+	background-color: white;
+    position: absolute;
+	top: 10px;
+	right: 75px;
+}
